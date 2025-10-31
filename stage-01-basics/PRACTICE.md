@@ -13,6 +13,8 @@
 ## Уровень 1: Основы (Легкие)
 
 ### Задача 1.1: Сумма двух чисел
+**Платформа:** [LeetCode #1 - Two Sum](https://leetcode.com/problems/two-sum/) | **Сложность:** Easy
+
 **Условие:** Дан массив целых чисел и число `target`. Найти индексы двух чисел, сумма которых равна `target`.
 
 **Пример:**
@@ -24,11 +26,11 @@
 
 **Подсказка:** Используйте словарь для хранения уже просмотренных чисел
 
-**Платформы:** LeetCode #1
-
 ---
 
 ### Задача 1.2: Палиндром
+**Платформа:** [LeetCode #125 - Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | **Сложность:** Easy
+
 **Условие:** Проверить, является ли строка палиндромом (читается одинаково слева направо и справа налево). Учитывать только буквы и цифры, игнорировать регистр.
 
 **Пример:**
@@ -39,11 +41,11 @@
 
 **Подсказка:** Используйте два указателя
 
-**Платформы:** LeetCode #125
-
 ---
 
 ### Задача 1.3: Анаграммы
+**Платформа:** [LeetCode #242 - Valid Anagram](https://leetcode.com/problems/valid-anagram/) | **Сложность:** Easy
+
 **Условие:** Проверить, являются ли две строки анаграммами (содержат одинаковые буквы в разном порядке).
 
 **Пример:**
@@ -54,11 +56,11 @@
 
 **Подсказка:** Используйте Counter или отсортируйте строки
 
-**Платформы:** LeetCode #242
-
 ---
 
 ### Задача 1.4: Удалить дубликаты
+**Платформа:** [LeetCode #26 - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | **Сложность:** Easy
+
 **Условие:** Дан отсортированный массив. Удалить дубликаты in-place (не создавая новый массив), вернуть новую длину.
 
 **Пример:**
@@ -68,8 +70,6 @@
 ```
 
 **Подсказка:** Два указателя - один читает, другой пишет
-
-**Платформы:** LeetCode #26
 
 ---
 
@@ -87,6 +87,8 @@
 ## Уровень 2: Базовые алгоритмы (Средние)
 
 ### Задача 2.1: Максимальная подпоследовательность (Kadane)
+**Платформа:** [LeetCode #53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | **Сложность:** Medium
+
 **Условие:** Найти подмассив с максимальной суммой.
 
 **Пример:**
@@ -98,11 +100,11 @@
 
 **Подсказка:** Алгоритм Кадане - храните текущую и максимальную суммы
 
-**Платформы:** LeetCode #53
-
 ---
 
 ### Задача 2.2: Товары со скидкой
+**Платформа:** [LeetCode #739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | **Сложность:** Medium
+
 **Условие:** Для каждого элемента массива найти следующий больший элемент справа. Если нет - вернуть -1.
 
 **Пример:**
@@ -113,11 +115,11 @@
 
 **Подсказка:** Используйте стек
 
-**Платформы:** LeetCode #739 (Next Greater Element)
-
 ---
 
 ### Задача 2.3: Подстрока без повторов
+**Платформа:** [LeetCode #3 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | **Сложность:** Medium
+
 **Условие:** Найти длину самой длинной подстроки без повторяющихся символов.
 
 **Пример:**
@@ -129,11 +131,11 @@
 
 **Подсказка:** Скользящее окно с словарем
 
-**Платформы:** LeetCode #3
-
 ---
 
 ### Задача 2.4: Группировка анаграмм
+**Платформа:** [LeetCode #49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/) | **Сложность:** Medium
+
 **Условие:** Дан массив строк. Сгруппировать анаграммы вместе.
 
 **Пример:**
@@ -144,11 +146,11 @@
 
 **Подсказка:** Используйте словарь, ключ - отсортированная строка
 
-**Платформы:** LeetCode #49
-
 ---
 
 ### Задача 2.5: Подмассив с суммой K
+**Платформа:** [LeetCode #560 - Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | **Сложность:** Medium
+
 **Условие:** Найти количество подмассивов, сумма которых равна K.
 
 **Пример:**
@@ -159,13 +161,13 @@
 
 **Подсказка:** Префиксные суммы + словарь
 
-**Платформы:** LeetCode #560
-
 ---
 
 ## Уровень 3: Продвинутые (Сложные)
 
 ### Задача 3.1: Контейнер с водой
+**Платформа:** [LeetCode #11 - Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | **Сложность:** Medium
+
 **Условие:** Дан массив высот вертикальных линий. Найти две линии, которые вместе с осью X образуют контейнер с максимальным объемом воды.
 
 **Пример:**
@@ -176,11 +178,11 @@
 
 **Подсказка:** Два указателя с концов массива
 
-**Платформы:** LeetCode #11
-
 ---
 
 ### Задача 3.2: Минимальное окно подстроки
+**Платформа:** [LeetCode #76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | **Сложность:** Hard
+
 **Условие:** Найти минимальную подстроку S, содержащую все символы строки T.
 
 **Пример:**
@@ -191,11 +193,11 @@
 
 **Подсказка:** Скользящее окно с двумя словарями
 
-**Платформы:** LeetCode #76
-
 ---
 
 ### Задача 3.3: Медиана двух отсортированных массивов
+**Платформа:** [LeetCode #4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | **Сложность:** Hard
+
 **Условие:** Найти медиану двух отсортированных массивов.
 
 **Пример:**
@@ -205,8 +207,6 @@
 ```
 
 **Подсказка:** Бинарный поиск по меньшему массиву
-
-**Платформы:** LeetCode #4
 
 ---
 
@@ -242,21 +242,74 @@
 
 ---
 
+### CF 1.4: Bit++
+**Сложность:** 800
+**Условие:** Язык Bit++ имеет переменную x и операции ++X, X++, --X, X--. Вычислить финальное значение x.
+
+**Ссылка:** [Codeforces 282A](https://codeforces.com/problemset/problem/282/A)
+
+---
+
+### CF 1.5: Next Round
+**Сложность:** 800
+**Условие:** Подсчитать участников, которые пройдут в следующий раунд (балл > 0 и >= k-го участника).
+
+**Ссылка:** [Codeforces 158A](https://codeforces.com/problemset/problem/158/A)
+
+---
+
+### CF 1.6: Domino Piling
+**Сложность:** 800
+**Условие:** На доске M×N нужно разместить максимум костяшек домино 2×1.
+
+**Ссылка:** [Codeforces 50A](https://codeforces.com/problemset/problem/50/A)
+
+---
+
+### CF 1.7: Beautiful Matrix
+**Сложность:** 800
+**Условие:** В матрице 5×5 есть одна единица. Найти минимум ходов, чтобы переместить её в центр.
+
+**Ссылка:** [Codeforces 263A](https://codeforces.com/problemset/problem/263/A)
+
+---
+
+### CF 1.8: Petya and Strings
+**Сложность:** 800
+**Условие:** Сравнить две строки лексикографически (без учета регистра).
+
+**Ссылка:** [Codeforces 112A](https://codeforces.com/problemset/problem/112/A)
+
+---
+
 ## Контесты для практики
 
 ### AtCoder Beginner Contest
 - **Задачи A-C:** Легкие, хороши для начала
 - **Задача D:** Средняя сложность
 - Проходят каждую субботу
+- **Ссылка:** [AtCoder Contests](https://atcoder.jp/contests/)
+- **Архив задач:** [AtCoder Problems](https://kenkoooo.com/atcoder/)
 
 ### Codeforces
 - **Division 4:** Самые легкие (задачи A-E)
+  - [Problemset Division 4](https://codeforces.com/problemset?tags=div4)
 - **Division 3:** Для начинающих (задачи A-F)
+  - [Problemset Division 3](https://codeforces.com/problemset?tags=div3)
+- **По сложности:** [Рейтинг 800-1000](https://codeforces.com/problemset?tags=800-1000)
 - Проходят несколько раз в неделю
+- **Ссылка:** [Codeforces Contests](https://codeforces.com/contests)
 
 ### LeetCode
-- **Easy:** 100+ задач для начинающих
-- **Top Interview Questions:** Классические задачи
+- **Easy:** [100+ задач для начинающих](https://leetcode.com/problemset/all/?difficulty=EASY)
+- **Top Interview Questions:** [Классические задачи](https://leetcode.com/problem-list/top-interview-questions/)
+- **По паттернам:** [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/)
+- **Study Plan:** [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)
+
+### CSES Problem Set
+- Структурированный набор из 300 задач по темам
+- Отличная подготовка к ACM
+- **Ссылка:** [CSES Problem Set](https://cses.fi/problemset/)
 
 ---
 
